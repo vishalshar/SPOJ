@@ -14,7 +14,6 @@ public class SpojSubString
 			String values[] = input.split(" ");
 			String a = values[0];
 			String b = values[1];
-			
 			for(int j=0;j<(a.length()-5);j++)
 			{
 				String sub = a.substring(j, j+5);
