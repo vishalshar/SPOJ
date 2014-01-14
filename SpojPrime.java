@@ -50,7 +50,7 @@ public class SpojPrime {
 		}
 	}
 	
-    public static void primeGenerate(int N) 
+    public static void primeGenerate(int N)
     {
         boolean[] isPrime = new boolean[N + 1];
         for (int i = 2; i <= N; i++) 
